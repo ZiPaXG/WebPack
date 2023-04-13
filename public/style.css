@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.time {
+    padding-left: 10px;
+    margin-right: 0px;
+    width: 1px;
+}
+.subject {
+    border-bottom: 1px dotted black;
+    width: 130px;
+}
+table {
+    border: 1px solid black;
+    width: 250px;
+    margin-right: 35px;
+    margin-bottom: 30px;
+    margin-left: 35px;
+}
+.theadDay {
+    background-color: coral;
+    color: white;
+}
+
+.textCenter{
+    text-align: center;
+}
+
+hr {
+    border: 1px solid black;
+}
+
+.sheduleTable {
+    margin: 50px auto;
+    width: 1000px;
+    height: auto;
+    border: 1px solid black;
+}
+
+.daysTable {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    width:1000px;
+    padding:10px;
+}
+
+.header {
+    margin: 20px;
+    margin-left: 50px;
+    margin-right: 45px;
+}
+
+.active {
+    background-color: red;
+    color: white;
+}
