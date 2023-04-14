@@ -20,7 +20,7 @@ class SheduleTable extends React.Component {
                         ["Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота"].map(
                             function(dayName, index)
                             {
-                                return <Day dayName={dayName} currentDate={getDayOfWeek(Date.now())}/>;
+                                return <Day dayName={dayName} currentDate={getDayOfWeek(Date.now())} key={"shedule-row-"+index}/>;
                             }
                         )
                     }
